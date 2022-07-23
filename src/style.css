@@ -434,6 +434,11 @@ html {
 }
 
 #menu__toggle {
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
     display: none;
 }
 
@@ -458,6 +463,10 @@ html {
 
 .menu__btn {
     user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
     display: flex;
     align-items: center;
     position: fixed;
@@ -491,6 +500,11 @@ html {
 }
 
 .menu__box {
+    user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
     z-index: 19;
     display: flex;
     position: fixed;
@@ -504,14 +518,25 @@ html {
     box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
     transition-duration: .25s;
     border-radius: 0 0 0 20px;
+    overflow: hidden;
 }
 
 .menu__box div {
+    user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
     display: flex;
     flex-direction: column;
 }
 
 .menu__box div .nav-link {
+    user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
     color: white;
 }
 
