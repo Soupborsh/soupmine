@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import About from "./components/About";
 import Donate from "./components/Donate";
 import FAQ from "./components/FAQ";
@@ -9,7 +9,7 @@ import "./style.css";
 function App() {
   return (
     <div className="main">
-      <BrowserRouter>
+      <HashRouter>
         {/* Шапка */}
         <header>
           <Nav />
@@ -31,7 +31,7 @@ function App() {
             <Footer />
           </div>
         </footer>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
